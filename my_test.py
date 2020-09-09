@@ -1,7 +1,7 @@
-from my_code import inc
+from my_code import factorial_calc
 
 
-def test_inc():
-    assert 5 == inc(4)
-    assert 1 == inc(0)
-    assert 0 == inc(-1)
+def test_factorial_calc():
+    assert 120 == factorial_calc(5)
+    assert 6 == factorial_calc(3)
+    assert 1 == factorial_calc(0)
