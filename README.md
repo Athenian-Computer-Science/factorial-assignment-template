@@ -1,20 +1,24 @@
-# Master CT Assignment Template 
+# Factorial calculator
+Write a program that computes the factorial of a given number.
 
-Use this master template to create CT Assignment Templates.
-
-## Problem Description
-Problem description goes here. 
-
-* Steps to take go here. 
+* Accept an input number from the user
+* Feed that number into the factorial function as an argument
+* Return the factorial
 
 ## Example
 ```
-Value to increment? 5
-10
+Input number? 5
+Returned value: 120
+
+Input number? 3
+Returned nmber: 6
 ```
 
 ## Suggested Approach
-1) Suggestions go here
+1) Gather user input in "main"
+2) Your factorial function should have a parameter that represents the base number
+3) Loops are your friends!
+4) Be sure to return your result
 
 ## Hints
 * Use the section under `if __name__ == '__main__': ` to change arguments and check your work.
